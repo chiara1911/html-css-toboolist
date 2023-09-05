@@ -37,6 +37,18 @@ header span{
     margin: 10px 10%;
     background-color: white;
  } 
+ .add2{
+    margin-left: 50px;    
+ }
+
+ .add2 span{
+    border:solid 2px grey;
+    border-radius: 24px;
+    font-size: small;
+    color: grey;
+    padding: 2px;
+    margin-top: 20px;
+ }
 /* div span{
     border: solid;
     border-radius: 10%;
