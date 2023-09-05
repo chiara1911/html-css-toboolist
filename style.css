@@ -51,7 +51,12 @@ div span{
     margin: 15px;
     padding: 1px;
      }
- 
+ .categorie{
+    border: solid;
+    border-radius: 34%;
+    padding: 6px;
+    font-size: small;
+ }
  /* colori css */
 
 .bg-blue{
