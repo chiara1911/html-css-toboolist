@@ -11,14 +11,17 @@ header{
    
    
 }
-header h1{
+header span{
     text-align: left;
     margin: auto;
-    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bolder;
+    
+ 
 }
 #logo{
-    border: solid;
- 
+   
+    vertical-align: middle;
 }
 /* body css
  */
@@ -34,10 +37,10 @@ header h1{
     margin: 10px 10%;
     background-color: white;
  } 
-div span{
+/* div span{
     border: solid;
     border-radius: 10%;
-}
+} */
  ul{
     list-style: none;
  }
@@ -50,12 +53,27 @@ div span{
     text-align: center;  
     margin: 15px;
     padding: 1px;
-     }
- .categorie{
-    border: solid;
-    border-radius: 34%;
-    padding: 6px;
     font-size: small;
+     }
+     .falso{
+        width: 200px;
+        height: 200px;
+        border: solid red;
+        border-radius: 50%;
+        text-align: center;  
+        margin: 15px;
+        padding: 7px;
+        font-size: small;
+         }
+
+
+ .categorie{
+    border: 1px;
+    border-radius: 15px;
+    padding: 4px;
+    font-size: 10px;
+    color: white;
+    margin: 2px;
  }
  /* colori css */
 
