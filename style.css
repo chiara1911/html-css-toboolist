@@ -62,27 +62,21 @@ header span{
  ul{
     list-style: none;
  }
- 
  .vero{
-    width: 200px;
-    height: 200px;
     border: solid green;
+ }
+ .vero, .falso{
+    width: 200px;
+    height: 200px;    
     border-radius: 50%;
     text-align: center;  
     /* margin: 15px; */
     padding: 1px;
     font-size: small;
      }
-     .falso{
-        width: 200px;
-        height: 200px;
+ .falso{
         border: solid red;
-        border-radius: 50%;
-        text-align: center;  
-        margin: 15px;
-        padding: 7px;
-        font-size: small;
-         }
+     }
 
 
  .categorie{
