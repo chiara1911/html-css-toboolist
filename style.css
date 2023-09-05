@@ -5,14 +5,17 @@
 }
 /* header css */
 header{
-    background-color: red;
+    background-color: white;
     display: block;
+    margin: 0px;
+   
+   
 }
 header h1{
     text-align: left;
     margin: auto;
+    vertical-align: middle;
 }
-
 #logo{
     border: solid;
  
@@ -21,20 +24,19 @@ header h1{
  */
 
  body{
-    margin: 10% 20px;
+    margin: 5px 20px;
     font-size: large;
-    background-color: grey;
+    background-color: red;
     
    
  }
  main{
-    margin: 10px 20%;
-    background-color: #47ADF1;
- }
- #freccia{
-    font-variant-numeric: tabular-nums;
- }
-
+    margin: 10px 10%;
+    background-color: white;
+ } 
+div span{
+    border: solid;
+}
  ul{
     list-style: none;
  }
@@ -66,16 +68,3 @@ header h1{
     background-color: #B0C926;
 }
 
-.add{
-    width: 20px;
-    height: 20px;
-    background-color: blue;
-    border: solid black;
-    border-radius: 10%;    
-}
-.add2{
-    background-color: purple;
-    margin:60px 50px;
-    align-items: center;
-    padding: 30px;
-}
