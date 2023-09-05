@@ -3,10 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* header css */
 header{
     background-color: red;
+    display: block;
 }
+header h1{
+    text-align: left;
+    margin: auto;
+}
+
+#logo{
+    border: solid;
+ 
+}
+/* body css
+ */
+
+ body{
+    margin: 10% 20px;
+    font-size: large;
+    background-color: grey;
+    
+   
+ }
+ main{
+    margin: 10px 20%;
+    background-color: #47ADF1;
+ }
+ #freccia{
+    font-variant-numeric: tabular-nums;
+ }
+
+ ul{
+    list-style: none;
+ }
+ 
+ /* colori css */
 
 .bg-blue{
     background-color: #47ADF1;
@@ -31,4 +64,18 @@ header{
 }
 .bg-olive{
     background-color: #B0C926;
+}
+
+.add{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border: solid black;
+    border-radius: 10%;    
+}
+.add2{
+    background-color: purple;
+    margin:60px 50px;
+    align-items: center;
+    padding: 30px;
 }
