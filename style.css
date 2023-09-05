@@ -42,6 +42,16 @@ div span{
     list-style: none;
  }
  
+ .vero{
+    width: 200px;
+    height: 200px;
+    border: solid green;
+    border-radius: 50%;
+    text-align: center;  
+    margin: 15px;
+    padding: 1px;
+     }
+ 
  /* colori css */
 
 .bg-blue{
