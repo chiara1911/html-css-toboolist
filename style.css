@@ -8,19 +8,19 @@ header{
     background-color: white;
     display: block;
     margin: 0px;
-   
-   
+
+
 }
 header span{
     text-align: left;
     margin: auto;
     font-size: 30px;
     font-weight: bolder;
-    
- 
+
+
 }
 #logo{
-   
+
     vertical-align: middle;
 }
 /* body css
@@ -30,8 +30,8 @@ header span{
     margin: 5px 20px;
     font-size: large;
     background-color: #F6F8F9;
-    
-   
+
+
  }
  hr{
     color: #F6F8F9;
@@ -39,37 +39,54 @@ header span{
  main{
     margin: 10px 10%;
     background-color: white;
-    padding-left: 10%;
- } 
- .add2{
-    /* margin-left: 50px;  */
-    padding: 10px 0px;   
-   
+    /* padding-left: 10%; */
  }
 
- .add2 span{
-    border:solid 2px grey;
-    border-radius: 24px;
-    font-size: small;
-    color: grey;
-    padding: 2px;
-    margin-top: 20px;
+ .add2{
+    margin-left: 50px; 
+    padding: 10px 20px;
+    border-bottom:solid 2px grey;
  }
-/* div span{
-    border: solid;
-    border-radius: 10%;
-} */
- ul{
+
+.section{
+    border: solid ;
+}
+ .add2 span{
+    
+   border: 2px #D5D9DD;
+    border-radius: 5px ;
+    padding: 8px;
+    font-size: 10px;
+    margin: 2px 3px 2px;
+ }
+ .add2, bg-blue{
+    color: white;
+}
+#section{
+    color:#D5D9DD;
+    border: solid #D5D9DD 1px;
+}
+
+
+ 
+.lista {
+  padding-left: 100px;
+}
+
+ul{
     list-style: none;
+ }
+ li{
+    margin: 11px;
  }
  .vero{
     border: solid green;
  }
  .vero, .falso{
     width: 200px;
-    height: 200px;    
+    height: 200px;
     border-radius: 50%;
-    text-align: center;  
+    text-align: center;
     /* margin: 15px; */
     padding: 1px;
     font-size: small;
@@ -91,10 +108,12 @@ header span{
 
 .bg-blue{
     background-color: #47ADF1;
+    color: white;
 }
 
 .bg-body{
     background-color: #F6F8F9;
+    
 }
 
 .bg-violet{
