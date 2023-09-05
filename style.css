@@ -29,16 +29,22 @@ header span{
  body{
     margin: 5px 20px;
     font-size: large;
-    background-color: red;
+    background-color: #F6F8F9;
     
    
+ }
+ hr{
+    color: #F6F8F9;
  }
  main{
     margin: 10px 10%;
     background-color: white;
+    padding-left: 10%;
  } 
  .add2{
-    margin-left: 50px;    
+    /* margin-left: 50px;  */
+    padding: 10px 0px;   
+   
  }
 
  .add2 span{
@@ -63,7 +69,7 @@ header span{
     border: solid green;
     border-radius: 50%;
     text-align: center;  
-    margin: 15px;
+    /* margin: 15px; */
     padding: 1px;
     font-size: small;
      }
